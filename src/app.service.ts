@@ -6,3 +6,9 @@ export class AppService {
     return 'Hello World!';
   }
 }
+
+export class ArticleDto {
+	title: string;
+	body: string;
+	author: string;
+}
